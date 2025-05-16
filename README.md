@@ -13,7 +13,7 @@ A simple interactive quiz application built using **HTML**, **CSS**, and **Vanil
 
 ## 📸 Screenshot
 
-![Quiz Screenshot](img/screenshot.png)
+![Quiz Screenshot](img/screenshot.PNG)
 
 ## 🛠️ Technologies Used
 
