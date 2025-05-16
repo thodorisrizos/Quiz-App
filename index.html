@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="keyword" content="quiz app, quiz"/>
+    <meta name="author" content="Thodoris Rizos" />
+    <title>Quiz App</title>
+    <link rel="icon" href="img/favicon/favicon.ico" />
+    <link rel="stylesheet" href="css/style.css">
+    <script defer src="script/script.js"></script>
+</head>
+<body>
+    <main class="container">
+        <!-- Phase 1 - Start -->
+        <div class="elemContainer active" id="startElem">
+            <h1>Quiz Time!</h1>
+            <p>Let's test your knowledge and have fun!</p>
+            <button id="startBtn">Start Quiz</button>
+        </div>
+
+        <!-- Phase 2 - Quiz Time -->
+        <div class="elemContainer" id="quizElem">
+            <div class="questionHeader">
+                <h2 id="question">Q<span id="questionNum">1</span>: Where you live?</h2>
+                <div class="quizInfo">
+                    <p>Question: <span id="currentQuestion">1</span>:<span id="totalQuestions">5</span></p>
+                    <p>Score: <span id="score">0</span></p>
+                </div>
+            </div>
+
+            <div id="posibleAnswers"></div>
+
+            <div class="progressBar">
+                <div id="progress" class="progress"></div>
+            </div>
+        
+        </div>
+
+        <!-- Phase 3 - Display Results-->
+        <div class="elemContainer" id="resultsElem">
+            <h1>Quiz Results</h1>
+            <div class="resultsContainer">
+                <p>You scored <span id="finalScore">0</span> out of <span id="totalScore">5</span></p>
+                <div id="results">Awesome achievement!!! 5/5</div>
+            </div>
+            <button id="restartBtn">Retry Quiz</button>
+        </div>
+    </main>
+</body>
+</html>
